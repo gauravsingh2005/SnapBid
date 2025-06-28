@@ -5,8 +5,52 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>SnapBid</title>
     <link rel="icon" type="image/png" href="Images/favicon/favicon-32x32.png">
+    <style>
+        .nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .nav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        
+    </style>
+
 </head>
 <body>
-    <img src="Images/logo2.png" alt="SnapBid">    
+    <img src="Images/logo2.png" alt="SnapBid">   
+    <div class="nav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="home">
+        <img src="https://www.oneplus.in/store/phone" alt="Mobile">
+
+    </div>
+    <div>
+        <ol>
+            <a href="live"> Live bidding</a>
+        </ol>
+    </div>
+    
+ 
 </body>
 </html>
